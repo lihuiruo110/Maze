@@ -1,3 +1,4 @@
+import curses
 # ... 위에 기존 게임 로직 그대로 ...
 
 def main(stdscr):
