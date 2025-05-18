@@ -5,18 +5,10 @@ setup(
     version='0.1',
     description='Terminal-based infinite random maze game with traps and scoring',
     author='lihuiruo110',
-    py_modules=['maze'],
+    py_modules=['maze_game'],
     entry_points={
         'console_scripts': [
-            'maze-game = maze:main',
+            'maze-game = maze_game:main',
         ],
     },
-    install_requires=[
-        # curses는 표준 라이브러리라 별도 설치 불필요
-        # 윈도우는 windows-curses 설치 필요
-    ],
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'Operating System :: OS Independent',
-    ],
 )
